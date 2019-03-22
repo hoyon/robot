@@ -49,4 +49,4 @@ formatOrientation :: Orientation -> String
 formatOrientation North = "N"
 formatOrientation East = "E"
 formatOrientation South = "S"
-formatOrientation West = "S"
+formatOrientation West = "w"

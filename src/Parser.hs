@@ -42,7 +42,7 @@ orientation =
 
 actions :: Parser [Action]
 actions =
-  many action
+    many action
 
 action :: Parser Action
 action =

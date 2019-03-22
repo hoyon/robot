@@ -30,7 +30,7 @@ step grid robot@Robot{dead=False} action =
         else newRobot
 
 step _ position _ =
-  position
+    position
 
 performAction :: Action -> Robot -> Robot
 performAction F pos =
